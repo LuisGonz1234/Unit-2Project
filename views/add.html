@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Add Task</title>
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+  <h1>Add a Task</h1>
+
+  <nav>
+    <a href="/">Home</a>
+    <a href="/tasks">View Tasks</a>
+    <a href="/add">Add Task</a>
+  </nav>
+
+  <form action="/create-task" method="POST">
+    <label for="title">Task Title:</label>
+    <input type="text" id="title" name="title" required>
+
+    <label for="status">Status:</label>
+    <select id="status" name="status">
+      <option value="Not Done">Not Done</option>
+      <option value="Done">Done</option>
+    </select>
+
+    <button type="submit">Add Task</button>
+  </form>
+</body>
+</html>
