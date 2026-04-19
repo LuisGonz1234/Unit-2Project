@@ -1,0 +1,12 @@
+[
+  {
+    "id": 1,
+    "title": "Finish Node project",
+    "status": "Not Done"
+  },
+  {
+    "id": 2,
+    "title": "Push code to GitHub",
+    "status": "Done"
+  }
+]
