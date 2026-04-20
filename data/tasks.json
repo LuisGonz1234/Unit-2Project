@@ -1,12 +1,17 @@
 [
   {
     "id": 1,
-    "title": "Finish Node project",
-    "status": "Not Done"
+    "title": "add",
+    "status": "Done"
   },
   {
     "id": 2,
-    "title": "Push code to GitHub",
+    "title": "add",
+    "status": "Done"
+  },
+  {
+    "id": 3,
+    "title": "done",
     "status": "Done"
   }
 ]
